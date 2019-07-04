@@ -64,6 +64,9 @@ p{
  .navbar-header{
 	border-bottom: 2px solid black;
  }
+ .main-content{
+	margin: 10px 50px 10px 50px;
+ }
 }
 
 @media (min-width: 768px) {
