@@ -1,0 +1,95 @@
+*{box-sizing: border-box;
+ }
+
+h1{
+	text-align: left;
+	background-color: gray;
+	float: left;
+	font-weight: bold;
+	margin-left: 20px;
+	color: black;
+	font-size: 30px;
+}
+
+h2, h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+/**
+div{
+	position: relative;
+}
+**/
+h3{
+	position: relative;
+	top: 5px;
+	font-size: 20px;
+}
+
+p{
+	position: relative;
+	margin: 15px;
+}
+
+
+.row {
+  width: 100%;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: none;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  height: 80px;
+}
+
+
+/** Main-Content **/
+.main-content{
+	background-color: gray;
+	height: 1000px;
+	margin: 20px;
+}
+
+/** Navbar Style **/
+@media (max-width: 767px) {
+ #collapsable-nav{
+	background: white;
+ }
+ .navbar-header{
+	border-bottom: 2px solid black;
+ }
+}
+
+@media (min-width: 768px) {
+#header-nav {
+	border-bottom: 2px solid black;
+}
+}
+
+#nav-list{
+	/**border: 2px solid black;**/
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+	font-size: 1.8em;
+	border-bottom: 2px solid black;
+}
+#nav-list a:hover{
+	/**background: grey;**/
+	/**border: 2px solid black;**/
+}
+
+.navbar-header button.navbar-toggle {
+	float: right;
+	margin: 20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
